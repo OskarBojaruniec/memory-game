@@ -1,0 +1,8 @@
+<div class="container">
+  
+    <div *ngFor="let image of listOfImages"><img class="block" src={{image.path}} width="151px" height="137px" (click)="displayImageOnClick(image.id)"></div>
+    <div>{{player1.name}} {{player1.points}}</div>
+    <div>{{player2.name}} {{player2.points}}</div>
+    <div>Actual player: {{actualPlayer.name}}</div>
+  
+</div>
